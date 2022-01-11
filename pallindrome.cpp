@@ -21,7 +21,7 @@ bool isString_Pallindrome(char A[]) //Valid for upto 50 character string
 {
     int i,j;
     j = strlen(A)-1;
-    for(i=0 ; A[i]!='\0' ; i++,j--)
+    for(i=0 ; A[i]!='\0' && i<j ; i++,j--)
     {
         if(A[i]!=A[j])
         return false;

@@ -64,7 +64,7 @@ void fibo_dym(int n)
 }
 
 
-int fibo_rec(int n)
+int fibo_rec(int n) // recursion
 {
     switch(n)
     {
